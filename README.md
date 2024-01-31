@@ -8,6 +8,11 @@ This repo contains Python code to convert weight files from Darknet to Keras and
 - Tensorflow 1.13.1
 - Keras 2.1.4
 
+## Notes
+
+- Darknet to Keras: Mish activation is supported.
+- Keras to Darknet: Mish activation has been not supported!
+
 ## Darknet to Keras
 
 Converting Darknet model (*.weights) to Keras model (.h5):
@@ -44,10 +49,12 @@ Please cite this repo if it's helpful for your study.
 
 ## References
 
-[1] https://github.com/qqwweee/keras-yolo3
+   [1] https://github.com/qqwweee/keras-yolo3
 
-[2] https://www.cnblogs.com/shouhuxianjian/p/10567201.html
- 
+   [2] https://www.cnblogs.com/shouhuxianjian/p/10567201.html
+
+   [3] https://github.com/tranleanh/darkeras-yolov4
+
 Have fun!
 
 
